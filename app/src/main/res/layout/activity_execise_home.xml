@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="gym.example.mediaplayer.Execise_home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="what do you want\n(आपको क्या चाहिए)"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40sp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/TrainerMale"
+            android:layout_width="match_parent"
+            app:cardElevation="3dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/teal_200"
+            android:layout_height="200sp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+
+                android:src="@drawable/male_trainer"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="male trainer"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:textSize="25sp"
+               android:layout_gravity="bottom"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/TrainerFemale"
+            android:layout_width="match_parent"
+            app:cardElevation="10dp"
+            android:elevation="10dp"
+            app:cardCornerRadius="25dp"
+            android:layout_marginTop="20dp"
+            app:cardBackgroundColor="@color/teal_200"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:src="@drawable/female_trainer"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="female trainer"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

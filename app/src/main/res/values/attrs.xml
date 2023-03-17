@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="scale_mode" format="enum">
+        <enum name="fit" value="0"/>
+        <enum name="fill" value="1"/>
+    </attr>
+</resources>
