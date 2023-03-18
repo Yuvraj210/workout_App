@@ -1,10 +1,9 @@
-package gym.example.mediaplayer
+package gym.daily.Workout
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import com.example.mediaplayer.R
 
 class Splash_Screen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -7,7 +7,7 @@
   android:paddingTop="30dp"
     android:background="@color/white"
     android:layout_height="match_parent"
-    tools:context="gym.example.mediaplayer.StartActivity">
+    tools:context="gym.daily.Workout.StartActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

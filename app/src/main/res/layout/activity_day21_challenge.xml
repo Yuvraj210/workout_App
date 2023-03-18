@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context="gym.example.mediaplayer.Day21_Challenge">
+    tools:context="gym.daily.Workout.Day21_Challenge">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

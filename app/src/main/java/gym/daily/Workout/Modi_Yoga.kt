@@ -1,10 +1,8 @@
-package gym.example.mediaplayer
+package gym.daily.Workout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.mediaplayer.R
-import kotlinx.android.synthetic.main.activity_male_trainer.*
 import kotlinx.android.synthetic.main.activity_modi_yoga.*
 
 class Modi_Yoga : AppCompatActivity() {

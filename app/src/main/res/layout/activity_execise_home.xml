@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context="gym.example.mediaplayer.Execise_home">
+    tools:context="gym.daily.Workout.Execise_home">
 
     <TextView
         android:layout_width="match_parent"

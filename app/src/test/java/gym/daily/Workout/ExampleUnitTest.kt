@@ -1,4 +1,4 @@
-package gym.example.mediaplayer
+package gym.daily.Workout
 
 import org.junit.Test
 

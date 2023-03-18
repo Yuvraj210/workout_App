@@ -1,8 +1,7 @@
-package gym.example.mediaplayer
+package gym.daily.Workout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.mediaplayer.R
 
 class Shilpa_Setty : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:paddingTop="40dp"
     android:background="@color/white"
-    tools:context="gym.example.mediaplayer.Male_30day">
+    tools:context="gym.daily.Workout.Male_30day">
 
     <LinearLayout
         android:layout_width="match_parent"

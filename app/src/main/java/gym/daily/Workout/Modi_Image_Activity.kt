@@ -1,9 +1,8 @@
-package gym.example.mediaplayer
+package gym.daily.Workout
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.mediaplayer.R
 import kotlinx.android.synthetic.main.activity_modi_image.*
 
 class Modi_Image_Activity : AppCompatActivity() {

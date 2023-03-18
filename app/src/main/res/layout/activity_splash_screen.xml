@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="gym.example.mediaplayer.Splash_Screen">
+    tools:context="gym.daily.Workout.Splash_Screen">
 
     <ImageView
         android:layout_width="match_parent"

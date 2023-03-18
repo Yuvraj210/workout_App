@@ -5,5 +5,6 @@
 
     <string name="my_text">This is some <font color="#FF0000">red text</font> and some <font color="#0000FF">blue text</font>.</string>
     <string name="male_trainer">Male Trainer</string>
+    <string name="day" />
 
 </resources>

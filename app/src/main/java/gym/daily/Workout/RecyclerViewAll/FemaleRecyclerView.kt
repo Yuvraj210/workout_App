@@ -1,4 +1,4 @@
-package gym.example.mediaplayer.RecyclerViewAll
+package gym.daily.Workout.RecyclerViewAll
 
 import android.content.Context
 import android.content.Intent
@@ -6,9 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import gym.example.mediaplayer.MainActivity
-import com.example.mediaplayer.R
-import gym.example.mediaplayer.female_modal
+import gym.daily.Workout.MainActivity
+import gym.daily.Workout.R
+import gym.daily.Workout.female_modal
 import kotlinx.android.synthetic.main.female_row.view.*
 
 class FemaleRecyclerView(val context: Context, val Arr: ArrayList<female_modal>):

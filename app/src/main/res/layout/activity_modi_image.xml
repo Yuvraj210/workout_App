@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:background="@color/white"
     android:paddingTop="50dp"
-    tools:context="gym.example.mediaplayer.Modi_Image_Activity">
+    tools:context="gym.daily.Workout.Modi_Image_Activity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/ModiYoga"

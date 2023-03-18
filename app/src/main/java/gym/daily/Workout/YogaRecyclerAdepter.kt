@@ -1,4 +1,4 @@
-package gym.example.mediaplayer
+package gym.daily.Workout
 
 import android.content.Context
 import android.content.Intent
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mediaplayer.R
 import kotlinx.android.synthetic.main.exercise.view.*
 
 class YogaRecyclerAdepter(val context: Context, val Arr: ArrayList<exercise_Modalclass>):
     RecyclerView.Adapter<YogaRecyclerAdepter.View_holder>() {
+
     class View_holder(val item: View): RecyclerView.ViewHolder(item) {
 
         var nameE=item.exename

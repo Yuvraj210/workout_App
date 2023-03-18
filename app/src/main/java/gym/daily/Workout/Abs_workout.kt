@@ -1,10 +1,9 @@
-package gym.example.mediaplayer
+package gym.daily.Workout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.mediaplayer.R
-import gym.example.mediaplayer.RecyclerViewAll.FemaleRecyclerView
+import gym.daily.Workout.RecyclerViewAll.FemaleRecyclerView
 import kotlinx.android.synthetic.main.activity_abs_workout.*
 
 class Abs_workout : AppCompatActivity() {

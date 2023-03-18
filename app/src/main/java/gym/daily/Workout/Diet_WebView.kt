@@ -1,8 +1,7 @@
-package gym.example.mediaplayer
+package gym.daily.Workout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.mediaplayer.R
 import kotlinx.android.synthetic.main.activity_diet_web_view.*
 
 class Diet_WebView : AppCompatActivity() {
